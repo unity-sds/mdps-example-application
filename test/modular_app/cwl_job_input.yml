@@ -1,4 +1,4 @@
-input:  # type 'Directory'
+input_stac_catalog_dir:  # type 'Directory'
     class: Directory
     path: ../stage_in
 summary_table_filename: summary_table.txt  # default value of type 'string'.
