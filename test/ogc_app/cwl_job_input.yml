@@ -2,7 +2,7 @@ input_stac_catalog_dir:  # type 'Directory'
     class: Directory
     path: ../stage_in
 summary_table_filename: summary_table.txt  # default value of type 'string'.
-output_collection: urn:nasa:unity:unity:dev:unity-example-application___1  # default value of type 'string'.
+output_collection: mdps-example-application___1  # default value of type 'string'.
 example_argument_string: string  # default value of type 'string'.
 example_argument_int: 1  # default value of type 'int'.
 example_argument_float: 1.0  # default value of type 'float'.
