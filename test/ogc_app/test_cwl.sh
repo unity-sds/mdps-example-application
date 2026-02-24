@@ -27,6 +27,7 @@ fi
 
 cwltool \
     --debug --leave-tmpdir --no-read-only \
+    --disable-color --no-match-user \
     $use_podman_arg \
     "$WORKFLOW_FILENAME" "$JOB_INP_FILENAME" \
     $* |& tee $RUN_DIR/test_modular_cwl.log
