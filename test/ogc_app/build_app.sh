@@ -8,5 +8,5 @@ cd $BASE_DIR
 
 build_ogc_app init .
 
-build_ogc_app build_docker
+build_ogc_app build_docker -n unity-sds -r mdps-example-application
 build_ogc_app build_cwl
