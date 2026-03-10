@@ -1,0 +1,71 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "G2040068619-GES_DISC",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -7.16,
+          -56.18
+        ],
+        [
+          -43.78,
+          -71.72
+        ],
+        [
+          20.73,
+          -81.77
+        ],
+        [
+          23.22,
+          -60.47
+        ],
+        [
+          -7.16,
+          -56.18
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -43.78,
+    -81.77028018298317,
+    23.22,
+    -56.18
+  ],
+  "properties": {
+    "datetime": "2016-08-22T00:11:22Z",
+    "start_datetime": "2016-08-22T00:11:22.000Z",
+    "end_datetime": "2016-08-22T00:17:22.000Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "../../G2040068619-GES_DISC.xml",
+      "type": "application/xml"
+    },
+    "data": {
+      "href": "../../SNDR.SS1330.CHIRP.20160822T0011.m06.g002.L1_AQ.std.v02_48.G.200425095901.nc"
+    }
+  },
+  "collection": "local-downloaded-collection"
+}
