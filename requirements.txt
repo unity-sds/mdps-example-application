@@ -1,3 +1,4 @@
 papermill
 netCDF4
 tabulate
+pystac
