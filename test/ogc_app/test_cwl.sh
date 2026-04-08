@@ -3,7 +3,7 @@
 SCRIPT_DIR=$(realpath $(dirname $0))
 BASE_DIR=$(realpath $(dirname $0)/../..)
 
-WORKFLOW_FILENAME=$BASE_DIR/.unity_app_gen/cwl/process.cwl
+WORKFLOW_FILENAME=$BASE_DIR/.mdps_app_gen/cwl/process.cwl
 JOB_INP_FILENAME=$SCRIPT_DIR/cwl_job_input.yml
 RUN_DIR=$BASE_DIR/test/process_results
 
@@ -27,6 +27,7 @@ fi
 
 cwltool \
     --debug --leave-tmpdir --no-read-only \
+    --disable-color --no-match-user \
     $use_podman_arg \
     "$WORKFLOW_FILENAME" "$JOB_INP_FILENAME" \
     $* |& tee $RUN_DIR/test_modular_cwl.log

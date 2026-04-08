@@ -1,4 +1,4 @@
 papermill
-unity-sds-client==0.6.1
 netCDF4
 tabulate
+pystac

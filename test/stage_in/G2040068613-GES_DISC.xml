@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Granule>
+  <GranuleUR>SNDR13CHRP1.2:SNDR.SS1330.CHIRP.20160822T0005.m06.g001.L1_AQ.std.v02_48.G.200425095850.nc</GranuleUR>
+  <InsertTime>2021-04-25T09:58:24Z</InsertTime>
+  <LastUpdate>2021-04-25T09:58:24Z</LastUpdate>
+  <Collection>
+    <ShortName>SNDR13CHRP1</ShortName>
+    <VersionId>2</VersionId>
+  </Collection>
+  <DataGranule>
+    <SizeMBDataGranule>49.47189426422119</SizeMBDataGranule>
+    <ProducerGranuleId>SNDR.SS1330.CHIRP.20160822T0005.m06.g001.L1_AQ.std.v02_48.G.200425095850.nc</ProducerGranuleId>
+    <DayNightFlag>NIGHT</DayNightFlag>
+    <ProductionDateTime>2020-04-25T09:58:50.000Z</ProductionDateTime>
+  </DataGranule>
+  <PGEVersionClass>
+    <PGEVersion>v02.48.00</PGEVersion>
+  </PGEVersionClass>
+  <Temporal>
+    <RangeDateTime>
+      <BeginningDateTime>2016-08-22T00:05:22.000000Z</BeginningDateTime>
+      <EndingDateTime>2016-08-22T00:11:22.000000Z</EndingDateTime>
+    </RangeDateTime>
+  </Temporal>
+  <Spatial>
+    <VerticalSpatialDomains>
+      <VerticalSpatialDomain>
+        <Type>Maximum Altitude</Type>
+        <Value>TOA</Value>
+      </VerticalSpatialDomain>
+      <VerticalSpatialDomain>
+        <Type>Minimum Altitude</Type>
+        <Value>SFC</Value>
+      </VerticalSpatialDomain>
+    </VerticalSpatialDomains>
+    <HorizontalSpatialDomain>
+      <Geometry>
+        <GPolygon>
+          <Boundary>
+            <Point>
+              <PointLongitude>26.31</PointLongitude>
+              <PointLatitude>-38.94</PointLatitude>
+            </Point>
+            <Point>
+              <PointLongitude>23.24</PointLongitude>
+              <PointLatitude>-60.32</PointLatitude>
+            </Point>
+            <Point>
+              <PointLongitude>-7.02</PointLongitude>
+              <PointLatitude>-56.04</PointLatitude>
+            </Point>
+            <Point>
+              <PointLongitude>6.18</PointLongitude>
+              <PointLatitude>-36.16</PointLatitude>
+            </Point>
+          </Boundary>
+        </GPolygon>
+      </Geometry>
+    </HorizontalSpatialDomain>
+  </Spatial>
+  <OnlineAccessURLs>
+    <OnlineAccessURL>
+      <URL>https://data.gesdisc.earthdata.nasa.gov/data/CHIRP/SNDR13CHRP1.2/2016/235/SNDR.SS1330.CHIRP.20160822T0005.m06.g001.L1_AQ.std.v02_48.G.200425095850.nc</URL>
+      <URLDescription>Download SNDR.SS1330.CHIRP.20160822T0005.m06.g001.L1_AQ.std.v02_48.G.200425095850.nc</URLDescription>
+    </OnlineAccessURL>
+    <OnlineAccessURL>
+      <URL>s3://gesdisc-cumulus-prod-protected/CHIRP/SNDR13CHRP1.2/2016/235/SNDR.SS1330.CHIRP.20160822T0005.m06.g001.L1_AQ.std.v02_48.G.200425095850.nc</URL>
+      <URLDescription>This link provides direct download access via S3 to the granule</URLDescription>
+    </OnlineAccessURL>
+  </OnlineAccessURLs>
+  <OnlineResources>
+    <OnlineResource>
+      <URL>https://data.gesdisc.earthdata.nasa.gov/s3credentials</URL>
+      <Description>api endpoint to retrieve temporary credentials valid for same-region direct s3 access</Description>
+      <Type>VIEW RELATED INFORMATION</Type>
+    </OnlineResource>
+    <OnlineResource>
+      <URL>https://opendap.earthdata.nasa.gov/collections/C2011289787-GES_DISC/granules/SNDR13CHRP1.2%3ASNDR.SS1330.CHIRP.20160822T0005.m06.g001.L1_AQ.std.v02_48.G.200425095850.nc</URL>
+      <Description>OPeNDAP request URL</Description>
+      <Type>GET DATA : OPENDAP DATA</Type>
+    </OnlineResource>
+  </OnlineResources>
+  <Orderable>false</Orderable>
+  <AssociatedBrowseImageUrls/>
+</Granule>

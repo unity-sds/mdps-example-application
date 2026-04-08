@@ -1,0 +1,49 @@
+{
+  "type": "Collection",
+  "id": "local-downloaded-collection",
+  "stac_version": "1.1.0",
+  "description": "A local collection containing downloaded STAC items.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./G2040068613-GES_DISC/G2040068613-GES_DISC.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./G2040068619-GES_DISC/G2040068619-GES_DISC.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -43.78,
+          -81.77028018298317,
+          26.31,
+          -36.16
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-08-22T00:05:22Z",
+          "2016-08-22T00:11:22Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
